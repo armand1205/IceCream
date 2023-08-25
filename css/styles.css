@@ -64,8 +64,8 @@ body {
   height: 410px;
   flex-shrink: 0;
   position: absolute;
-  top: 92px;
-  right: 32px;
+  margin-top: 84px;
+  margin-left: -100px;
 }
 
 .header-text-box {
