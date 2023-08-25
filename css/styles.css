@@ -12,6 +12,8 @@ body {
   width: 320px;
 }
 
+/* Header */
+
 .header-container {
   margin: 0 auto;
   width: 320px;
@@ -136,4 +138,44 @@ body {
   border: none;
   border-radius: 12px;
   background-color: #fff;
+}
+
+/* Main */
+
+main {
+  width: 320px;
+  height: auto;
+  padding: 60px 20px;
+  background: #fff;
+}
+
+.product-types-container {
+  width: 100%;
+  height: auto;
+}
+
+.product-types-s-title {
+  color: #ffa5ba;
+  text-align: center;
+  font-family: Titan One;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 89px;
+}
+
+.product-types-p-title {
+  color: #d41443;
+  text-align: center;
+  font-family: Titan One;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.36px;
+  position: absolute;
+  left: 59px;
+  padding-top: 15px;
 }
