@@ -10,7 +10,7 @@ body {
   margin: 0 auto;
   font-family: var(--font-family);
   margin: 0 auto;
-  width: 320px;
+
   max-width: 375px;
 }
 
@@ -18,7 +18,7 @@ body {
 
 .header-container {
   margin: 0 auto;
-  width: 320px;
+
   max-width: 375px;
   height: 502px;
   background: #c4788b;
@@ -139,7 +139,9 @@ body {
 /* Main */
 
 main {
-  width: 320px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 375px;
   height: auto;
   background: #fff;
 }
@@ -299,6 +301,7 @@ section.him {
   padding: 60px 20px;
   background: #fff5f6;
   height: 1564px;
+  max-width: 375px;
 }
 
 .him-titles {
@@ -478,9 +481,14 @@ section.him {
 .home-images {
   margin: 0;
   padding: 0;
+  width: 100%;
+  max-width: 375px;
   height: 130px;
   position: absolute;
-  margin-top: -17px;
+  top: 4200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .image-1 {
@@ -488,7 +496,7 @@ section.him {
   height: 43.861px;
   flex-shrink: 0;
   position: absolute;
-  top: 20px;
+  margin-right: 274px;
 }
 
 .image-2 {
@@ -496,7 +504,8 @@ section.him {
   height: 43.861px;
   position: absolute;
   flex-shrink: 0;
-  left: 46px;
+  margin-right: 183px;
+  margin-bottom: 37px;
 }
 
 .image-3 {
@@ -504,8 +513,6 @@ section.him {
   height: 43.861px;
   flex-shrink: 0;
   position: absolute;
-  left: 46px;
-  top: 45px;
 }
 
 .image-4 {
@@ -513,8 +520,6 @@ section.him {
   height: 89.615px;
   flex-shrink: 0;
   position: absolute;
-  left: 92px;
-  top: -24px;
 }
 
 .image-5 {
@@ -522,8 +527,6 @@ section.him {
   height: 43.861px;
   flex-shrink: 0;
   position: absolute;
-  left: 92px;
-  top: 68px;
 }
 
 .image-6 {
@@ -531,8 +534,6 @@ section.him {
   height: 43.861px;
   flex-shrink: 0;
   position: absolute;
-  left: 183px;
-  top: 5px;
 }
 
 .image-7 {
@@ -540,8 +541,6 @@ section.him {
   height: 43.861px;
   flex-shrink: 0;
   position: absolute;
-  left: 182px;
-  top: 50px;
 }
 
 .image-8 {
@@ -549,8 +548,6 @@ section.him {
   height: 43.861px;
   flex-shrink: 0;
   position: absolute;
-  left: 229px;
-  top: -10px;
 }
 
 .image-9 {
@@ -558,8 +555,6 @@ section.him {
   height: 43.861px;
   flex-shrink: 0;
   position: absolute;
-  left: 229px;
-  top: 36px;
 }
 
 .image-10 {
@@ -567,8 +562,6 @@ section.him {
   height: 43.861px;
   flex-shrink: 0;
   position: absolute;
-  left: 275px;
-  top: 20px;
 }
 
 section.testimonials-section-container {
@@ -611,7 +604,7 @@ svg.testimonial-bg-icon {
   width: 54px;
   height: 40px;
   position: absolute;
-  left: 65px;
+  margin-right: 120px;
   margin-top: -205px;
 }
 
@@ -899,7 +892,7 @@ a.email {
   display: flex;
   gap: 28px;
   position: absolute;
-  right: 20px;
+  margin-left: 128px;
 }
 
 .footer-icon {
