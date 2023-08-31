@@ -62,6 +62,7 @@ a.logo-ice-cream {
   position: absolute;
   align-self: flex-end;
   margin-top: 17px;
+  cursor: pointer;
 }
 
 .header-icecream-cone {
@@ -124,6 +125,7 @@ a.logo-ice-cream {
   border: none;
   border-radius: 12px;
   background-color: #d41443;
+  cursor: pointer;
 }
 
 .header-him-btn {
@@ -139,6 +141,7 @@ a.logo-ice-cream {
   border: none;
   border-radius: 12px;
   background-color: #fff;
+  cursor: pointer;
 }
 
 /* Main */
@@ -264,6 +267,7 @@ section.products {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .product-btn svg {
@@ -419,6 +423,7 @@ section.him {
   justify-content: center;
   position: absolute;
   margin-top: 116px;
+  cursor: pointer;
 }
 
 .read-more-icon {
@@ -818,10 +823,8 @@ a.email {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.our-locations-btn {
   margin-top: 32px;
+  cursor: pointer;
 }
 
 .icon-our-locations-btn {
@@ -856,10 +859,8 @@ a.email {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.franchise-btn {
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .icon-franchise-btn {
