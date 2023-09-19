@@ -9,7 +9,6 @@
 body {
   margin: 0 auto;
   font-family: var(--font-family);
-
   max-width: 375px;
 }
 
@@ -17,7 +16,6 @@ body {
 
 .header-container {
   margin: 0 auto;
-
   max-width: 375px;
   height: 502px;
   background: #c4788b;
@@ -268,6 +266,7 @@ section.products {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  background: white;
 }
 
 .product-btn svg {
