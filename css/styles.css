@@ -9,8 +9,6 @@
 body {
   margin: 0 auto;
   font-family: var(--font-family);
-  margin: 0 auto;
-
   max-width: 375px;
 }
 
@@ -18,7 +16,6 @@ body {
 
 .header-container {
   margin: 0 auto;
-
   max-width: 375px;
   height: 502px;
   background: #c4788b;
@@ -56,7 +53,7 @@ body {
   background: none;
   position: absolute;
   margin-top: 16px;
-  margin-left: 62px;
+  margin-left: 116px;
 }
 
 .header-icecream-cone {
@@ -65,7 +62,7 @@ body {
   flex-shrink: 0;
   position: absolute;
   margin-top: 84px;
-  margin-left: -100px;
+  margin-left: -65px;
 }
 
 .header-text-box {
@@ -256,6 +253,7 @@ section.products {
   padding: 0;
   border: none;
   border-radius: 50%;
+  background-color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -956,4 +954,12 @@ a.email {
   font-style: normal;
   font-weight: 700;
   line-height: 152%; /* 21.28px */
+}
+
+/*  Tablet  */
+
+@media screen and (min-width: 768px) {
+  .body {
+    max-width: 768px;
+  }
 }
