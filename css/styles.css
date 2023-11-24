@@ -33,9 +33,15 @@ body {
   background-position: top 83px left 36px;
 }
 
-.logo-ice-cream a {
+.header-nav-holder {
+  display: flex;
+  flex-direction: column;
+}
+
+a.logo-ice-cream {
   width: 198px;
   height: 50px;
+  align-self: flex-start;
 }
 
 .icon-burger-open-menu svg {
@@ -52,8 +58,14 @@ body {
   border: none;
   background: none;
   position: absolute;
+<<<<<<< HEAD
   margin-top: 16px;
   margin-left: 116px;
+=======
+  align-self: flex-end;
+  margin-top: 17px;
+  cursor: pointer;
+>>>>>>> 2107ed04471374026e80a08223535fd0934ea02b
 }
 
 .header-icecream-cone {
@@ -61,8 +73,13 @@ body {
   height: 410px;
   flex-shrink: 0;
   position: absolute;
+<<<<<<< HEAD
   margin-top: 84px;
   margin-left: -65px;
+=======
+  top: 92px;
+  margin-left: 110px;
+>>>>>>> 2107ed04471374026e80a08223535fd0934ea02b
 }
 
 .header-text-box {
@@ -116,6 +133,7 @@ body {
   border: none;
   border-radius: 12px;
   background-color: #d41443;
+  cursor: pointer;
 }
 
 .header-him-btn {
@@ -131,6 +149,7 @@ body {
   border: none;
   border-radius: 12px;
   background-color: #fff;
+  cursor: pointer;
 }
 
 /* Main */
@@ -257,6 +276,8 @@ section.products {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  background: white;
 }
 
 .product-btn svg {
@@ -412,6 +433,7 @@ section.him {
   justify-content: center;
   position: absolute;
   margin-top: 116px;
+  cursor: pointer;
 }
 
 .read-more-icon {
@@ -811,10 +833,8 @@ a.email {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.our-locations-btn {
   margin-top: 32px;
+  cursor: pointer;
 }
 
 .icon-our-locations-btn {
@@ -849,10 +869,8 @@ a.email {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.franchise-btn {
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .icon-franchise-btn {
@@ -937,12 +955,12 @@ a.email {
 .copyright-box {
   width: 335px;
   height: 42px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-top: 110px;
+  align-self: center;
 }
 
 .copyright-text {
